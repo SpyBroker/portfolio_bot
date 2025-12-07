@@ -40,3 +40,6 @@ body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-s
 .send:hover{background:var(--accent-2)}
 .send:focus{outline:none;box-shadow:0 0 0 3px rgba(88,101,242,.25)}
 .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;background:#101522;border:1px solid #1c2342;border-radius:0.4rem;padding:0.1rem 0.35rem;color:#cbd5e1}
+.contact-btn{position:fixed;bottom:16px;right:16px;background:var(--accent);color:#fff;text-decoration:none;padding:0.6rem 0.9rem;border-radius:999px;font-weight:700;box-shadow:0 10px 24px rgba(88,101,242,.35);z-index:50;font-size:0.95rem}
+.contact-btn:hover{background:var(--accent-2)}
+.contact-btn:focus{outline:none;box-shadow:0 0 0 3px rgba(88,101,242,.25)}
