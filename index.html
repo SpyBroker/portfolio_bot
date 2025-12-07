@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio • Custom Discord Bots</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-title">Custom discord bots</h1>
+        <p class="hero-subtitle">Purpose-built automation, moderation, and fun for your servers</p>
+        <div class="hero-features" aria-label="bot capabilities">
+          <span class="badge">Moderation</span>
+          <span class="badge">Automation</span>
+          <span class="badge">Slash Commands</span>
+          <span class="badge">Webhooks</span>
+          <span class="badge">Dashboards</span>
+        </div>
+        <button id="exploreBtn" class="hero-cta" aria-label="Explore commands">Explore commands →</button>
+      </div>
+    </section>
+
+    <section id="discord-ui" class="ui-section">
+      <div class="ui-container">
+        <aside class="servers">
+          <div class="server">A</div>
+          <div class="server">B</div>
+          <div class="server active">C</div>
+          <div class="server">+</div>
+        </aside>
+        <aside class="channels">
+          <div class="channels-header"># channels</div>
+          <ul class="channel-list">
+            <li class="channel" data-channel="general">general</li>
+            <li class="channel active" data-channel="bots">bots</li>
+            <li class="channel" data-channel="dev-chat">dev-chat</li>
+            <li class="channel" data-channel="showcase">showcase</li>
+          </ul>
+        </aside>
+        <main class="chat">
+          <header id="chatTitle" class="chat-header">bots</header>
+          <div id="messages" class="messages"></div>
+          <form id="commandForm" class="command-form">
+            <input id="commandInput" type="text" placeholder="Type a command, e.g. !help" autocomplete="off" />
+            <button type="submit" class="send">Send</button>
+          </form>
+        </main>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
